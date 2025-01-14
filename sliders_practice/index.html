@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Image Slider</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="images">
+      <img src="assets/image1.jpg" class='active' >
+      <img src="assets/image2.jpg" >
+      <img src="assets/image3.jpg" >
+      <img src="assets/image4.jpg" >
+    </div>
+    <div class="dots">
+      <button onclick="dot(1)"></button>
+      <button onclick="dot(2)"></button>
+      <button onclick="dot(3)"></button>
+      <button onclick="dot(4)"></button>
+    </div>
+    <button id="prev" onclick="prev()"> &lt;</button>
+    <button id="next" onclick="next()"> &gt;</button>
+  </div>
+  
+  <script src='script.js'></script>
+</body>
+</html>
+
+<!-- 
+Photo by Pixabay: https://www.pexels.com/photo/gray-and-brown-mountain-417173/
+Photo by Nejc Košir: https://www.pexels.com/photo/green-leafed-tree-338936/
+Photo by Michał Ludwiczak: https://www.pexels.com/photo/photography-of-bridge-during-nighttime-1239162/
+Photo by Pixabay: https://www.pexels.com/photo/gray-concrete-road-beside-brown-mountain-during-golden-hour-163848/ 
+-->
